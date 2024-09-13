@@ -9,4 +9,8 @@ public class Employer {
         this.lastName = lastName;
         this.age = age;
     }
+
+    public String getName() {
+        return name;
+    }
 }
