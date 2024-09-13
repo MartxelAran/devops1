@@ -6,6 +6,7 @@ public class Client {
     public String lastName;
     public String password;
     public String email;
+    public int age;
 
     public Client(int id, String name, String lastName, String password, String email) {
         this.id = id;
