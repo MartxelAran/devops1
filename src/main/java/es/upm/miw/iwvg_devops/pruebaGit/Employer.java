@@ -1,11 +1,14 @@
 package es.upm.miw.iwvg_devops.pruebaGit;
 
+import java.util.ArrayList;
+
 public class Employer {
 
     private String name;
     private String lastName;
     private int age;
     public Jefe jefe;
+    public ArrayList<Client> clients;
 
     public Employer(String name, String lastName, int age, Jefe jefe) {
         this.name = name;
@@ -47,5 +50,5 @@ public class Employer {
     public void setJefe(Jefe jefe) {
         this.jefe = jefe;
     }
-    
+
 }
