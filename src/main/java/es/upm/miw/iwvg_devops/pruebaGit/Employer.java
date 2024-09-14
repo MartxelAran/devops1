@@ -1,13 +1,17 @@
 package es.upm.miw.iwvg_devops.pruebaGit;
 
 public class Employer {
+
     private String name;
     private String lastName;
     private int age;
-    public Employer(String name, String lastName, int age) {
+    public Jefe jefe;
+
+    public Employer(String name, String lastName, int age, Jefe jefe) {
         this.name = name;
         this.lastName = lastName;
         this.age = age;
+        this.jefe = jefe;
     }
 
     public Employer(){}
@@ -35,4 +39,13 @@ public class Employer {
     public void setAge(int age) {
         this.age = age;
     }
+
+    public Jefe getJefe() {
+        return jefe;
+    }
+
+    public void setJefe(Jefe jefe) {
+        this.jefe = jefe;
+    }
+    
 }
