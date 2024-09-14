@@ -10,6 +10,8 @@ public class Employer {
         this.age = age;
     }
 
+    public Employer(){}
+
     public String getName() {
         return name;
     }
